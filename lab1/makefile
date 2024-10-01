@@ -1,6 +1,6 @@
 CXX=g++
 LDFLAGS += # specify your library linking options here
-CXXFLAGS += -std=c++17 -O3 -DFASTSIM $(LDFLAGS)
+CXXFLAGS += -std=c++17 -O3 $(LDFLAGS)
 
 MCC=merlincc
 CMP_OPT=-d11 --attribute burst_total_size_threshold=36700160 --attribute burst_single_size_threshold=36700160 -funsafe-math-optimizations
